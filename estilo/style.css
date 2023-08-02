@@ -42,18 +42,38 @@ section {
     font-size: 4vmin;
 }
 
-section.noimagem {
+section > p {
+    padding-bottom: 1em;
+}
+
+section.imagem {
+    box-shadow: inset 6px 15px 13px 0px rgba(0, 0, 0, 0.514);
+   
+}
+
+section.imagem > p.padding {
+    padding-top: 8.5em;
+}
+
+section#img01 {
     background-image: url(../imagens/teste3.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: left;
-    box-shadow: inset 6px 15px 13px 0px rgba(0, 0, 0, 0.514);
-
-    height: 500px;
-
-
+    height: 388px;
 }
 
-section.noimagem > p {
-    padding-top: 20em;
+section#img02 {
+    background-image: url(../imagens/parede-1200.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+}
+
+section#img02 a {
+    font-weight: lighter;
+    font-style: italic;
+
+    color: white;
+    text-decoration: none;
 }
