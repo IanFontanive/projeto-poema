@@ -49,6 +49,11 @@ section.noimagem {
     background-position: left;
     box-shadow: inset 6px 15px 13px 0px rgba(0, 0, 0, 0.514);
 
-    height: 200px;
+    height: 500px;
 
+
+}
+
+section.noimagem > p {
+    padding-top: 20em;
 }
