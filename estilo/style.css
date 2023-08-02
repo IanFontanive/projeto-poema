@@ -2,11 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100&display=swap');
+
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Caveat', cursive;
-    --fonte3:
-}
+    --fonte3: 'Josefin Slab', serif;
+}    
 
 * {
     margin: 0;
@@ -16,14 +18,15 @@
 html, body {
     min-height: 100vh;
     background-color: black;
-    font-family: var(--fonte2);
+    font-family: var(--fonte1);
 }
 
 header {
     background-color: #1F2426;
     color: white;
     text-align: center;
-    font-size: 3vmin;
+    font-family: var(--fonte3);
+    font-size: 3.5vmin;
     
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -48,7 +51,8 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-    font-size: 5.5vmin;
+    font-size: 6vmin;
+    font-family: var(--fonte2);
 }
 
 section > p {
