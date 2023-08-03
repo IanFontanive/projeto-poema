@@ -28,7 +28,7 @@ header {
     font-family: var(--fonte3);
     font-size: 3.5vmin;
     
-    padding-top: 1vh;
+    padding-top: 3vh;
     padding-bottom: 1vh;
     padding-left: 11em;
 }
@@ -63,16 +63,12 @@ section.imagem {
     box-shadow: inset 6px 15px 13px 0px rgba(0, 0, 0, 0.514);
 }
 
-section.imagem > p.padding {
-    padding-top: ;
-}
-
 section#img01 {
     background-image: url(../imagens/teste3.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: left;
-    height: 8em;
+    padding-top: 12em;
 }
 
 section#img02 {
