@@ -30,13 +30,13 @@ header {
     
     padding-top: 3vh;
     padding-bottom: 1vh;
-    padding-left: 11em;
+    padding-left: 9em;
 }
 
 header p {
     font-weight: bolder;
 
-    padding-top: 0.40em;
+    padding-top: 0.4em;
     padding-left: 5em;
 }
 
@@ -79,9 +79,25 @@ section#img02 {
 }
 
 section#img02 a {
+    color: white;
     font-weight: lighter;
     font-style: italic;
+    text-decoration: none;
+}
 
+footer {
+    color: white;
+    background-image: url(../imagens/parede-1200.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0.8em;
+    
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 4vmin; 
+}
+
+footer a {
     color: white;
     text-decoration: none;
 }
