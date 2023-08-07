@@ -21,6 +21,11 @@ html, body {
     font-family: var(--fonte1);
 }
 
+header a:hover, footer a:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
+
 header {
     background-color: #1F2426;
     color: white;
@@ -51,7 +56,7 @@ section {
     padding-bottom: 11vh;
     padding-left: 30px;
     line-height: 2em;
-    font-size: 6vmin;
+    font-size: 6.5vmin;
     font-family: var(--fonte2);
 }
 
@@ -88,8 +93,7 @@ section#img02 {
 section#img02 a {
     color: white;
     font-weight: lighter;
-    font-style: italic;
-    text-decoration: none;
+    font-style: italic;   
 }
 
 footer {
@@ -102,12 +106,12 @@ footer {
     border: 2px;
     
     text-align: center;
+    text-shadow: 2px 2px 0px black;
     font-family: var(--fonte2);
-    font-size: 5vmin; 
+    font-size: 5.8vmin; 
 }
 
 footer a {
     color: white;
     text-decoration: none;
-    text-shadow: 2px 2px 0px black;
 }
