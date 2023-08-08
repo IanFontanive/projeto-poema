@@ -80,25 +80,26 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url(../imagens/teste4.jpg);
+    background-image: url(../imagens/parede-janela.jpg);
     background-position: left;
     padding-top: 14em;
 }
 
 section#img02 {
-    background-image: url(../imagens/parede-1200.jpg);
+    background-image: url(../imagens/parede.jpg);
     background-position: left;
 }
 
 section#img02 a {
     color: white;
     font-weight: lighter;
-    font-style: italic;   
+    font-style: italic;
+    text-decoration: none;   
 }
 
 footer {
     color: white;
-    background-image: url(../imagens/parede-1200.jpg);
+    background-image: url(../imagens/parede.jpg);
     background-attachment: fixed;
     background-size: cover;
     padding: 0.8em;
